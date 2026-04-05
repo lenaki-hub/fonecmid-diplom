@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc6f72dd-6406-43c0-81b5-94f9ddcf988f">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ВКМ_ТелеграмБотТокен</content>
+  <content>Constant.ВКМ_ТелеграмГруппаID</content>
+  <content>CommonModule.ВКМ_ИнтеграцияСТелеграм</content>
+  <content>Catalog.ВКМ_УведомленияТелеграм</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомленийТелеграм</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_ЧтениеЗаписьОбслуживаний</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Role.ВКМ_БазоваяОбслуживание</content>
+  <content>Role.ВКМ_ПроведениеОбслуживания</content>
+  <content>Role.ВКМ_СозданиеАктов</content>
+  <parentSubsystem>Subsystem.ВКМ_РаботаСЗаявкамиКлиентов</parentSubsystem>
+</mdclass:Subsystem>

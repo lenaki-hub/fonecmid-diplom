@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31d83bd8-c00b-4e2a-a083-6ede9c964289">
+  <producedTypes>
+    <objectType typeId="19ffb916-618f-4dd9-92c7-0aae1999bf99" valueTypeId="44f8d1bc-1d2c-418a-843e-6c35212bc62c"/>
+    <managerType typeId="4a735631-b52d-4c73-96cb-75f67cabf790" valueTypeId="94c1b2dc-1baa-4ec7-821f-0958781e8d76"/>
+  </producedTypes>
+  <name>ВКМ_АнализВыставленныхАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ выставленных актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_АнализВыставленныхАктов.Template.ВКМ_СхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="5a5a8098-781b-4133-8e91-a69c307862e9">
+    <name>СхемаКомпоновкиДАнных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки д анных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e9ac6196-df69-4d36-bf61-51421991c4bd">
+    <name>ВКМ_СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
